@@ -1,0 +1,31 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fbox{
+    display: flex;
+    gap: 20px;
+}
+
+.fbox div{
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 1.5s;
+}
+
+.fbox div:hover{
+    background-color: #f9004b;
+}
