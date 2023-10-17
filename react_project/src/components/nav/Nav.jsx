@@ -35,7 +35,6 @@ const Nav = () => {
             <Marquesina/>
 
         <div className={`links ${clicked ? 'links-active' : ''}`}>
-        <a href="#h" onClick={handleClick}>Home</a>
         <a href="#skills" onClick={handleClick}>Skills</a>
         <a href="#proyectos" onClick={handleClick}>Proyectos</a>
         <a href="#h" onClick={handleClick}>Trabaja Conmigo</a>

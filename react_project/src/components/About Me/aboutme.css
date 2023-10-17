@@ -27,6 +27,10 @@
 
 .right{
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
 }
 
 
@@ -49,4 +53,82 @@
 }
 .right h3{
     font-size: 60px;
+}
+
+@media screen and (max-width: 1507px){
+    .about{
+        width: 100%;
+        height: 88vh;
+        /* background-color: var(--mainbg);     */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+
+@media screen and (max-width: 800px){
+    .right{
+        margin-left: 70px;
+
+    }
+    .left{
+        width: 70%;
+        height: 50%;
+    }
+    .left img{
+        /* width: 80%;
+        height: 80%; */
+        border: 10px solid white;
+        border-radius: 50%;
+        box-shadow: 0px -2px 9px gray;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .right p{
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-top: 60px;
+        width: 50%;    
+        text-align: center;
+        opacity: 0.3;
+    }
+     
+    
+    .right h1{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .right h2{
+        font-size: 50px;
+        color: red;
+        margin-bottom: 10px;
+    }
+    .right h3{
+        font-size: 40px;
+    }
+} 
+
+@media screen and (max-width: 450px){
+    .right p{
+        font-size: 20px;
+    }
+     
+    
+    .right h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .right h2{
+        font-size: 30px;
+        color: red;
+        margin-bottom: 10px;
+    }
+    .right h3{
+        font-size: 20px;
+    }
 }
