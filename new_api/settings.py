@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api_franco',
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -131,3 +133,6 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = "static/"
 MEDIA_ROOT = "static/img"
+
+
+# AUTH_USER_MODEL = 'api_franco.CustomUser'

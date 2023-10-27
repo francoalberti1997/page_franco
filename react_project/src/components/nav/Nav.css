@@ -5,14 +5,17 @@ html, body{
     padding: 0;
     text-decoration: none;
     list-style: none;
-    height: 2600px;
     font-family: 'Oswald', sans-serif;
-font-family: 'Pixelify Sans';
-overflow-x: hidden;
+    font-family: 'Pixelify Sans';
+    overflow-x: hidden;
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.nav{
+  height: 20%;
 }
 
 h2{
@@ -97,7 +100,7 @@ color: #fff;
 .links a:hover{
   /* width: 50%; */
   background-color: rgb(73, 32, 8);
-  color: rgb(20, 235, 0);
+  color: #14eb00;
   /* padding: 15px; */
   border-radius: 5px;
 }
@@ -120,3 +123,4 @@ color: #fff;
     
   }
 }
+
