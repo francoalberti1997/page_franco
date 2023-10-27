@@ -14,7 +14,7 @@ const Cards = () => {
     useEffect(() => {
     // Fetch data when the component mounts
     fetch('https://codealberti1997.pythonanywhere.com/api/campo/')
-        .then((response) => {
+        .then((response) => {p
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
