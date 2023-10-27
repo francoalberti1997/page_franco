@@ -6,7 +6,7 @@ from django.http import JsonResponse
 import requests
 
 def index(request):
-    url = "http://127.0.0.1:8000/api/proyecto/"
+    url = "https://codealberti1997.pythonanywhere.com/api/proyecto/"
 
     if request.method == "POST":
     # Crear un diccionario a partir de request.POST
@@ -28,7 +28,6 @@ def index(request):
             print('Contenido de la respuesta:', response.text)    
 
     return render(request, "index.html")
-
 
 
 

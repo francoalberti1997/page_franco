@@ -13,7 +13,7 @@ const Cards = () => {
 
     useEffect(() => {
     // Fetch data when the component mounts
-    fetch('http://127.0.0.1:8000/api/campo/')
+    fetch('https://codealberti1997.pythonanywhere.com/api/campo/')
         .then((response) => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
