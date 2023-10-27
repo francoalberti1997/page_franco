@@ -133,7 +133,10 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_URL = "static/"
-MEDIA_ROOT = "static/img"
+MEDIA_ROOT = os.path.join(BASE_DIR)
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'react_project/dist/')
 
 
 # AUTH_USER_MODEL = 'api_franco.CustomUser'

@@ -5,6 +5,7 @@ from django.views.decorators.csrf import csrf_protect
 from django.http import JsonResponse
 import requests
 
+
 def index(request):
     url = "https://codealberti1997.pythonanywhere.com/api/proyecto/"
 
@@ -28,6 +29,4 @@ def index(request):
             print('Contenido de la respuesta:', response.text)    
 
     return render(request, "index.html")
-
-
 
