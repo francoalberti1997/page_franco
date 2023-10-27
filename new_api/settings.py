@@ -131,12 +131,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'react_project/dist/assets')
 ]
-
+    
 MEDIA_URL = "static/"
-MEDIA_ROOT = os.path.join(BASE_DIR)
-
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'react_project/dist/')
+MEDIA_ROOT = "static/img"
 
 
 # AUTH_USER_MODEL = 'api_franco.CustomUser'

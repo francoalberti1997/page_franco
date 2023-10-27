@@ -14,10 +14,11 @@ const Cards = () => {
     useEffect(() => {
     // Fetch data when the component mounts
     fetch('https://codealberti1997.pythonanywhere.com/api/campo/')
-        .then((response) => {p
+        .then((response) => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
+        console.log(response)
         return response.json();
         })
         .then((data) => {
@@ -29,6 +30,8 @@ const Cards = () => {
         });
     }, []);
 
+    console.log("campos")
+    console.log(campos);
 
     return (
         <div>
